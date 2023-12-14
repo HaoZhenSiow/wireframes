@@ -1,7 +1,9 @@
-import { component$ } from "@builder.io/qwik"
+import { component$ } from '@builder.io/qwik'
+
+import DoubleMarqueeHero from '~/components/hero/double-marquee/DoubleMarqueeHero'
 
 export default component$(() => {
   return (
-    <h1>This is a homepage</h1>
+    <DoubleMarqueeHero />
   )
 })
