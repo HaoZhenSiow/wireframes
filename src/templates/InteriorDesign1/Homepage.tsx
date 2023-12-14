@@ -4,6 +4,7 @@ import DoubleMarqueeHero from '~/components/hero/double-marquee/DoubleMarqueeHer
 import LogoMarquee from '~/components/awards/LogoMarquee'
 import Feature1 from '~/components/feature/Feature1'
 import Feature2 from '~/components/feature/Feature2'
+import Portfolio1 from '~/components/portfolio/portfolio1/Portfolio1'
 
 export default component$(() => {
   return (
@@ -13,6 +14,7 @@ export default component$(() => {
         <LogoMarquee />
         <Feature1 />
         <Feature2 />
+        <Portfolio1 />
       </main>
     </>
   )
