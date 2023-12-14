@@ -1,7 +1,9 @@
 import { component$ } from '@builder.io/qwik'
-import LogoMarquee from '~/components/awards/LogoMarquee'
 
 import DoubleMarqueeHero from '~/components/hero/double-marquee/DoubleMarqueeHero'
+import LogoMarquee from '~/components/awards/LogoMarquee'
+import Feature1 from '~/components/feature/Feature1'
+import Feature2 from '~/components/feature/Feature2'
 
 export default component$(() => {
   return (
@@ -9,6 +11,8 @@ export default component$(() => {
       <DoubleMarqueeHero />
       <main>
         <LogoMarquee />
+        <Feature1 />
+        <Feature2 />
       </main>
     </>
   )
