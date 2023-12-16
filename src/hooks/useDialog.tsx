@@ -8,7 +8,6 @@ export default function useDialog() {
     showDialogSig.value = true
   })
 
-  // eslint-disable-next-line qwik/no-use-visible-task
   useVisibleTask$(({ track, cleanup }) => {
     track(() => showDialogSig.value)
     if (!showDialogSig.value) return
