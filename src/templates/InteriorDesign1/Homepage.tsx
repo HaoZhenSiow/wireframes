@@ -6,7 +6,6 @@ import Feature1 from '~/components/feature/Feature1'
 import Feature2 from '~/components/feature/Feature2'
 import Portfolio1 from '~/components/portfolio/portfolio1/Portfolio1'
 import Testimonials1 from '~/components/Testimonials/Testimonials1/Testimonials1'
-import Form1 from '~/components/form/Form1'
 
 export default component$(() => {
   return (
@@ -18,7 +17,6 @@ export default component$(() => {
         <Feature2 />
         <Portfolio1 />
         <Testimonials1 />
-        <Form1 />
       </main>
     </>
   )

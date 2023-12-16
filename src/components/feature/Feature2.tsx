@@ -29,21 +29,28 @@ export default component$(() => {
     }
 
     @media (width > 1000px) {
-      section { flex-direction: row-reverse; }
+      section { flex-direction: row; }
       h2 { margin-top: 0; }
       br { display: inline; }
 
       .visual {
         width: 60%;
+        margin-left: 3em;
+      }
+
+      section.left { flex-direction: row-reverse; }
+
+      .left .visual {
         margin-left: 0;
         margin-right: 3em;
       }
     }
   `)
 
+  const isVisualLeft = true
 
   return (
-    <section class="fluid-section left">
+    <section class={`fluid-section ${isVisualLeft ? 'left' : ''}`}>
       <div>
         <h2>2-Month Handover or 50% Refund</h2>
           <p>Getting our dream home is a milestone for every Singaporean, and for most of us, it&apos;s a once-in-a-lifetime experience.</p>
