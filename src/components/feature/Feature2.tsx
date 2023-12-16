@@ -47,10 +47,8 @@ export default component$(() => {
     }
   `)
 
-  const isVisualLeft = true
-
   return (
-    <section class={`fluid-section ${isVisualLeft ? 'left' : ''}`}>
+    <section class={`fluid-section left`}>
       <div>
         <h2>2-Month Handover or 50% Refund</h2>
           <p>Getting our dream home is a milestone for every Singaporean, and for most of us, it&apos;s a once-in-a-lifetime experience.</p>

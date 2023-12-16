@@ -12,6 +12,8 @@ export default component$(({ idx, expansionSig, item }: {
   const contentSig = useSignal<HTMLDivElement>()
 
   useStylesScoped$(writeAccordionStyle())
+
+  // eslint-disable-next-line qwik/no-use-visible-task
   useVisibleTask$(function detectContentHeight() {
     if (!contentSig.value) return
 
